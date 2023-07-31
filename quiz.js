@@ -72,12 +72,12 @@ const quizData = [
         correct: "b",
     },
     {
-        question: "Thumba Equatorial Rocket Launching Station located in which state?",
+        question: "Satish Dhawan Space Center located in which state?",
         a: "Kerala",
         b: "Andhra Pradesh",
         c: "Karnataka",
         d: "Tamil Nadu",
-        correct: "a",
+        correct: "b",
     },
     {
         question: "What is the full form of IRNSS?",
