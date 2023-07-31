@@ -426,6 +426,38 @@ hr {
   background-color: #002449;
 }
 
+.bgmission{
+  background-color: #003358;
+
+}
+
+.missions-button{
+  background-color: #ff9a3b;
+}
+
+.btn{
+  transition: 0.3s;
+
+}
+.btn:hover{
+  background-color: #ff9a3b;
+  scale: 1.1;
+
+}
+
+
+.launch-img{
+  width: 450px;
+  height: auto;
+}
+
+@media screen and (max-width: 576px) {
+  .launch-img{
+    width: 400px;
+  }
+}
+
+
 
 .img-earth{
   width: 400px;
