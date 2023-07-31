@@ -418,7 +418,25 @@ hr {
 }
 
 
+.bgintro{
+  background-color: #001632;
+}
 
+.bgfounder{
+  background-color: #002449;
+}
+
+
+.img-earth{
+  width: 400px;
+  height: auto;
+}
+
+
+.founder-img{
+  width: auto;
+  height: 250px;
+}
 
 
 /* stylesheet 1 se required styles */
