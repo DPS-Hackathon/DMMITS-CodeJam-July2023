@@ -28,7 +28,7 @@ const quizData = [
         a: "President",
         b: "Aviation Minister",
         c: "Prime Minister",
-        d: "none of the above",
+        d: "None of the above",
         correct: "c",
     },
     {
@@ -36,7 +36,7 @@ const quizData = [
         a: "Mylswamy Annadurai",
         b: "B.N. Suresh",
         c: "Vikram Sarabhai",
-        d: "none of the above",
+        d: "None of the above",
         correct: "c",
     },
     {
@@ -44,7 +44,7 @@ const quizData = [
         a: "Bangalore",
         b: "Chennai",
         c: "Mumbai",
-        d: "none of the above",
+        d: "None of the above",
         correct: "a",
     },
     {
@@ -52,24 +52,24 @@ const quizData = [
         a: "Kalpana-1",
         b: "Aryabhata",
         c: "Bhaskara",
-        d: "none of the above",
+        d: "None of the above",
         correct: "b",
     },
     {
-        question: "Which is the latest PSLV launched by India?",
-        a: "PSLV C-32",
-        b: "PSLV C-37",
-        c: "PSLV C-42",
-        d: "PSLV C-56",
-        correct: "d",
+        question: "What is the full form of IRNSS?",
+        a: "Indian Regional Navigation Satellite System",
+        b: "Indian Regional Navigation Solar System",
+        c: "Indian Research Navigation Satellite System",
+        d: "Indian Research Navigation Safety System",
+        correct: "a",
     },
     {
         question: "In which place Dr Vikram Sarabhai Space Centre is located?",
         a: "Shriharikota",
-        b: "Thiruvananthapuram",
+        b: "Ahmedabad",
         c: "Bangalore",
-        d: "Uttar Pradesh",
-        correct: "b",
+        d: "Thiruvananthapuram",
+        correct: "d",
     },
     {
         question: "Satish Dhawan Space Center located in which state?",
@@ -80,12 +80,12 @@ const quizData = [
         correct: "b",
     },
     {
-        question: "What is the full form of IRNSS?",
-        a: " Indian Regional Navigation Satellite System",
-        b: "Indian Regional Navigation Solar System",
-        c: "Indian Research Navigation Satellite System",
-        d: "Indian Research Navigation Safety System",
-        correct: "a",
+        question: "Who is the father of the atomic bomb (Totally a relevant question, just for fun)",
+        a: "Lewis Strauss",
+        b: "J. Robert Oppenheimer",
+        c: "Robert Downy Jr.",
+        d: "Cilian Murphy",
+        correct: "b",
     },
 ];
 
@@ -140,8 +140,8 @@ submitButton.addEventListener("click", () => {
         if (currentQuiz < quizData.length) loadQuiz();
         else {
             quiz.innerHTML = `
-              <h2>You answered ${score}/${quizData.length} questions correctly</h2>
-              <button onclick="history.go(0)">Play Again</button>
+              <h2 class="fs-3 font-exo quizQuestion mb-5 ms-4">You answered ${score}/${quizData.length} questions correctly</h2>
+              <button onclick="history.go(0)" class="btn btn-primary btn-quiz mt-5 ms-4 mb-4">Play Again</button>
           `
         }
     }

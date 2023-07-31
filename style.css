@@ -443,7 +443,7 @@
     background-color: #00142c;
 }
 
-.quizbg{
+.quizbg {
     background-color: #001f30;
 }
 
@@ -454,17 +454,40 @@
     height: fit-content;
     max-width: 95vw;
     overflow: hidden;
-  }
- 
-.form-check-label{
+}
+
+.form-check-label {
     width: 100%;
 }
 
-.quizSpan{
+.quizSpan {
     margin-left: 20px;
 }
 
-.btn-quiz{
+.btn-quiz {
     background-color: #00425d;
     border: none;
+}
+
+.bgintro {
+    background-color: #001632;
+}
+
+.bgfounder {
+    background-color: #002449;
+}
+
+.missions-button {
+    background-color: #ff9a3b;
+}
+
+.btn {
+    transition: 0.3s;
+
+}
+
+.btn:hover {
+    background-color: #ff9a3b;
+    scale: 1.1;
+
 }
