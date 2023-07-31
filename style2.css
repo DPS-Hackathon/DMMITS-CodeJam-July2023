@@ -31,9 +31,13 @@
 }
 
 
+.bgastro {
+  background-image: url(img/landing\ page\ bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 
-
-body {
+.body {
   background-color: black;
 }
 
@@ -453,6 +457,17 @@ hr {
   color: white;
 }
 
+
+.isro-blue-text {
+  color: #00aeff !important;
+
+}
+
+.isro-orange-text {
+  color: #ff9a3b !important;
+
+}
+
 .bluee:hover {
   color: #00aeff !important;
   fill: #0066ff !important;
@@ -469,4 +484,73 @@ hr {
 
 .bginfomore {
   background-color: #00142c;
+}
+
+.bgblack {
+  background-color: #000000;
+}
+
+
+
+
+
+/* ISRO logo animation */
+
+.small-to-big {
+  animation: isro-big 1s ease 0.1s 1 forwards;
+  transition: 0.5;
+
+}
+
+@keyframes isro-big {
+
+
+  0% {
+    opacity: 0;
+    scale: 0.7;
+  }
+
+  40% {
+    opacity: 1;
+    scale: 1.2;
+
+
+  }
+
+  100% {
+    opacity: 1;
+    scale: 1;
+
+
+  }
+
+}
+
+.text-appear {
+  animation: text-in 1s ease 0.1s 1 forwards;
+  transition: 0.5;
+
+}
+
+@keyframes text-in {
+
+
+  0% {
+    opacity: 0;
+    scale: 1.2;
+  }
+
+  40% {
+    opacity: 1;
+    scale: 0.7;
+
+
+  }
+
+  100% {
+    opacity: 1;
+    scale: 1;
+
+  }
+
 }
