@@ -76,9 +76,9 @@ submitButton.addEventListener("click", () => {
     const answer = getSelectedOption();
     if (answer) {
         if (answer === quizData[currentQuiz].correct) score++;
-        console.log(answer + " answer")
-        console.log(quizData[currentQuiz].correct)
-        console.log(score + "score")
+        // console.log(answer + " answer")
+        // console.log(quizData[currentQuiz].correct)
+        // console.log(score + "score")
         currentQuiz++;
         level++
         if (currentQuiz < quizData.length) loadQuiz();
