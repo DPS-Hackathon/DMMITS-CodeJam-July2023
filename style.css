@@ -443,14 +443,31 @@
     background-color: #00142c;
 }
 
+.quizbg{
+    background-color: #001f30;
+}
+
+.quizQuestion{
+
+}
+
 .quiz-container {
-    background-color: rgb(218, 0, 0);
+    background-color: #01263b;
     width: 80vw;
-    height: 40vw;
+    height: fit-content;
     max-width: 95vw;
     overflow: hidden;
   }
  
 .form-check-label{
     width: 100%;
+}
+
+.quizSpan{
+    margin-left: 20px;
+}
+
+.btn-quiz{
+    background-color: #00425d;
+    border: none;
 }
