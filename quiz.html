@@ -8,7 +8,7 @@
         <!-- Bootstrap  -->
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
             integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
-            
+
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
         <!-- stylesheet  -->
@@ -140,283 +140,43 @@
         <div style="height: 90px;" class="bgblack"></div>
 
 
-        <!-- questions -->
-        <section class="bgblack mt-5 ">
-            <form id="quizForm">
-                <div class="container">
+        <div class="quiz-container mx-auto rounded-5" id="quiz">
 
+            
+            <span>
+                <p class="fs-3 font-exo" id="question"></p>
 
-                    <!-- question 1 -->
-                    <div class="row my-5">
-
-                        <p class="fs-3 font-exo">Q1: What is the full form of ISRO?</p>
-
-                        <span class="">
-                            <div class="form-check">
-                                <input class="form-check-input" type="radio" value="a" name="q1" id="11">
-                                <label class="form-check-label fs-6" for="11">
-                                    International Space Research Organisation
-                                </label>
-                            </div>
-
-                            <div class="form-check">
-                                <input class="form-check-input" type="radio" value="b" name="q1" id="12">
-                                <label class="form-check-label fs-6" for="12">
-                                    Institute for Space Research and Observation
-                                </label>
-                            </div>
-
-
-                            <div class="form-check">
-                                <input class="form-check-input" type="radio" value="c" name="q1" id="13">
-                                <label class="form-check-label fs-6" for="13">
-                                    Indian Space Research Organisation
-                                </label>
-                            </div>
-
-
-                            <div class="form-check">
-                                <input class="form-check-input" type="radio" value="d" name="q1" id="14">
-                                <label class="form-check-label fs-6" for="14">
-                                    Indian Space and Research Observatory
-                                </label>
-                            </div>
-                        </span>
+                <span class="">
+                    <div class="form-check">
+                        <input class="form-check-input answer" type="radio" value="a" name="answer" id="a">
+                        <label class="form-check-label fs-5" for="a" id="Labela">a
+                        </label>
 
                     </div>
 
-                    <hr>
-
-
-                    <!-- question2  -->
-                    <div class="row my-5">
-
-                        <span>
-                            <p class="fs-3 font-exo">Q2: What is the full form of GSLV?</p>
-
-                            <span class="">
-                                <div class="form-check">
-                                    <input class="form-check-input" type="radio" value="a" name="q2" id="21">
-                                    <label class="form-check-label fs-6" for="21">
-                                        General Satellite Lifting Vehicle
-                                    </label>
-
-                                </div>
-
-                                <div class="form-check">
-                                    <input class="form-check-input" type="radio" value="b" name="q2" id="22">
-                                    <label class="form-check-label fs-6" for="22">
-                                        Geosynchronous Satellite Launch Vehicle
-                                    </label>
-                                </div>
-
-
-                                <div class="form-check">
-                                    <input class="form-check-input" type="radio" value="c" name="q2" id="23">
-                                    <label class="form-check-label fs-6" for="23">
-                                        Geosynchronous Satellite Lifting Vehicle
-                                    </label>
-                                </div>
-
-
-                                <div class="form-check">
-                                    <input class="form-check-input" type="radio" value="d" name="q2" id="24">
-                                    <label class="form-check-label fs-6" for="24">
-                                        Geostar Satellite Launch Vehicle
-                                    </label>
-                                </div>
-                            </span>
-
+                    <div class="form-check">
+                        <input class="form-check-input answer" type="radio" value="b" name="answer" id="b">
+                        <label class="form-check-label fs-5" for="b" id="Labelb">a
+                        </label>
                     </div>
 
 
-                    <hr>
-
-
-                    <!-- question 3  -->
-                    <div class="row my-5">
-
-                        <span>
-                            <p class="fs-3 font-exo">Q3: When was ISRO Established?</p>
-
-                            <span class="">
-                                <div class="form-check">
-                                    <input class="form-check-input" type="radio" value="a" name="q3" id="31">
-                                    <label class="form-check-label fs-5" for="31">
-                                        Aug 15, 1969
-                                    </label>
-
-                                </div>
-
-                                <div class="form-check">
-                                    <input class="form-check-input" type="radio" value="b" name="q3" id="32">
-                                    <label class="form-check-label fs-5" for="32">
-                                        Jan 26, 1969
-                                    </label>
-                                </div>
-
-
-                                <div class="form-check">
-                                    <input class="form-check-input" type="radio" value="c" name="q3" id="33">
-                                    <label class="form-check-label fs-5" for="33">
-                                        Aug 15, 1948
-                                    </label>
-                                </div>
-
-
-                                <div class="form-check">
-                                    <input class="form-check-input" type="radio" value="d" name="q3" id="34">
-                                    <label class="form-check-label fs-5" for="34">
-                                        Jan 15, 1948
-                                    </label>
-                                </div>
-                            </span>
-
+                    <div class="form-check">
+                        <input class="form-check-input answer" type="radio" value="c" name="answer" id="c">
+                        <label class="form-check-label fs-5" for="c" id="Labelc">a
+                        </label>
                     </div>
 
 
-                    <hr>
-
-
-                    <!-- question 4  -->
-                    <div class="row my-5">
-
-                        <span>
-                            <p class="fs-3 font-exo">Q4: ISRO is monitored directly under whom?</p>
-
-                            <span class="">
-                                <div class="form-check">
-                                    <input class="form-check-input" type="radio" value="a" name="q4" id="41">
-                                    <label class="form-check-label fs-5" for="41">
-                                        President
-                                    </label>
-
-                                </div>
-
-                                <div class="form-check">
-                                    <input class="form-check-input" type="radio" value="b" name="q4" id="42">
-                                    <label class="form-check-label fs-5" for="42">
-                                        Aviation Minister
-                                    </label>
-                                </div>
-
-
-                                <div class="form-check">
-                                    <input class="form-check-input" type="radio" value="c" name="q4" id="43">
-                                    <label class="form-check-label fs-5" for="43">
-                                        Prime Minister
-                                    </label>
-                                </div>
-
-
-                                <div class="form-check">
-                                    <input class="form-check-input" type="radio" value="d" name="q4" id="44">
-                                    <label class="form-check-label fs-5" for="44">
-                                        None of the above
-                                    </label>
-                                </div>
-                            </span>
-
+                    <div class="form-check">
+                        <input class="form-check-input answer" type="radio" value="d" name="answer" id="d">
+                        <label class="form-check-label fs-5" for="d" id="Labeld">a
+                        </label>
                     </div>
+                </span>
 
-
-                    <hr>
-
-
-                    <!-- question 5  -->
-                    <div class="row my-5">
-
-                        <span>
-                            <p class="fs-3 font-exo">Q5: Who is regarded as the founder of ISRO?</p>
-
-                            <span class="">
-                                <div class="form-check">
-                                    <input class="form-check-input" type="radio" value="a" name="q5" id="51">
-                                    <label class="form-check-label fs-5" for="51">
-                                        Dr. APJ Abdul Kalam
-                                    </label>
-
-                                </div>
-
-                                <div class="form-check">
-                                    <input class="form-check-input" type="radio" value="b" name="q5" id="52">
-                                    <label class="form-check-label fs-5" for="52">
-                                        Dr. Vikram Sarabhai
-                                    </label>
-                                </div>
-
-
-                                <div class="form-check">
-                                    <input class="form-check-input" type="radio" value="c" name="q5" id="53">
-                                    <label class="form-check-label fs-5" for="53">
-                                        Dr. Satish Dhawan
-                                    </label>
-                                </div>
-
-
-                                <div class="form-check">
-                                    <input class="form-check-input" type="radio" value="d" name="q5" id="54">
-                                    <label class="form-check-label fs-5" for="54">
-                                        Dr. Homi J. Bhaba
-                                    </label>
-                                </div>
-                            </span>
-
-                    </div>
-
-
-                    <button type="submit" class="btn btn-primary ">Submit Quiz</button>
-                </div>
-
-            </form>
-
-
-
-            <!-- footer -->
-            <footer class="bgfooter pb-5 pt-3 mt-5">
-                <div class="container">
-                    <div class="row justify-content-center">
-
-
-                        <div class="col-12 col-md-6 text-center my-auto mt-5">
-                            <p class="fs-4 font-exo">Created at DPS Greater Faridabad <br> for <br> DMMITS Code Jam,
-                                2K23
-                            </p>
-
-                        </div>
-
-                        <div class="col-12 col-md-6 mt-5">
-                            <div class="row justify-content-evenly">
-                                <div class="col-3 justify-content-center">
-                                    <p class="fs-3 font-exo">Links</p>
-                                    <a href="index.html"
-                                        class="fs-6 font-comfortaa text-decoration-none footer-link  my-2 bluee">Home
-                                    </a>
-                                    <br>
-                                    <a href="missions.html"
-                                        class="fs-6 font-comfortaa text-decoration-none footer-link  my-2 orangee">Missions
-                                    </a>
-                                    <br>
-                                    <a href="quiz.html"
-                                        class="fs-6 font-comfortaa text-decoration-none footer-link  my-2 bluee">Quiz
-                                    </a> <br>
-                                    <a href="about.html"
-                                        class="fs-6 font-comfortaa text-decoration-none footer-link  my-2 orangee">About
-                                    </a> <br>
-                                </div>
-
-
-                            </div>
-                        </div>
-
-                    </div>
-
-
-                </div>
-            </footer>
-
-
-        </section>
+                <button id="submit">Submit</button>
+        </div>
 
 
 

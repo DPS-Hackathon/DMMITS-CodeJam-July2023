@@ -442,3 +442,15 @@
 .bginfomore {
     background-color: #00142c;
 }
+
+.quiz-container {
+    background-color: rgb(218, 0, 0);
+    width: 80vw;
+    height: 40vw;
+    max-width: 95vw;
+    overflow: hidden;
+  }
+ 
+.form-check-label{
+    width: 100%;
+}
